@@ -1,6 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+  }
+  
+  .header-space {
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .done-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    flex: 1;
+    text-align: right;
+  }
+
 body { 
     font-family: 'Nunito', sans-serif;
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
 }

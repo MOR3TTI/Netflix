@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Perfil</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-space"></div>
+      <h1>Editar perfil</h1>
+      <button class="done-btn" onclick="window.location.href = 'index.html'">
+        Concluído
+      </button>
+    </header>
+
+    <div class="perfil-foto">
+      <div class="foto">M</div>
+      <button class="edit-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+          <path d="m15 5 4 4"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="perfil-nome">
+      <label>Nome do perfil</label>
+      <input type="text" value="MORETTI">
+    </div>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M2 6h6m4 0h10M2 12h18M2 18h6m4 0h10"/>
+          <circle cx="16" cy="6" r="2"/>
+          <circle cx="8" cy="18" r="2"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Game ID</div>
+          <div class="subtitle">Crie seu Game ID</div>
+        </div>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </div>
+
+      <div class="menu-item">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Restrições de visualização</div>
+          <div class="subtitle">Sem restrições</div>
+        </div>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </div>
+
+      <div class="menu-item">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Bloqueio de perfil</div>
+          <div class="subtitle">Adicione um PIN de 4 dígitos a este perfil</div>
+        </div>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </div>
+
+      <div class="menu-item">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m5 8 6 6m0-6-6 6 6-6Z"/>
+          <path d="m19 8-6 6m0-6 6 6-6-6Z"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Idioma de exibição</div>
+          <div class="subtitle">Português</div>
+        </div>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </div>
+
+      <div class="menu-item">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Idioma e legendas</div>
+          <div class="subtitle">Português e Português (Brasil)</div>
+        </div>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </div>
+
+      <div class="menu-item toggle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Reprodução automática do próximo episódio</div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="menu-item toggle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m13 19 9-7-9-7v14z"/>
+          <path d="M2 19V5"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Reprodução automática das prévias</div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="menu-item toggle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="m5 8 6 6m0-6-6 6 6-6Z"/>
+          <path d="m19 8-6 6m0-6 6 6-6-6Z"/>
+        </svg>
+        <div class="caixa">
+          <div class="title">Tradução simultânea com IA</div>
+        </div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <footer>
+      <p>As alterações feitas aqui serão aplicadas a todos os aparelhos.</p>
+    </footer>
+  </div>
+</body>
+</html>
